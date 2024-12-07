@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head><link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إشراق: نجمة في سماء حبي</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- الصفحة الرئيسية -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>إشراق، أنتِ الأمل في حياتي، نجمة مضيئة في سماء حبي.</h1>
+      <p class="poetry">فاراقبك و تدرين ان قلبي يحس...</p>
+      <p class="poetry">لا تبعث لاشراق شعري اني امسيت عن درب الهوى...</p>
+    </div>
+  </section>
+
+  <!-- صفحة من هو XIMO؟ -->
+  <section class="about-ximo">
+    <h2>من هو XIMO؟</h2>
+    <p>XIMO هو شخص يقدر الجمال الحقيقي في الحياة، ليس فقط جمال الشكل ولكن جمال الروح. وقد قرر اليوم أن يكتب لكِ، إشراق، كلمات تعكس حبه وتقديره لكِ.</p>
+    <img src="ximo-image.jpg" alt="XIMO" class="ximo-image">
+  </section>
+
+  <!-- إضافة رابط حساب Instagram -->
+  <section class="instagram-link">
+    <h2>تابعي إشراق على Instagram</h2>
+    <p>إشراق هي جوهرة تضيء السماء، ويمكنك متابعتها على <a href="https://www.instagram.com/ii__chrak" target="_blank">Instagram</a> لتكوني جزءاً من عالمها الجميل.</p>
+  </section>
+
+  <!-- صفحة الشعر -->
+  <section class="poetry">
+    <h2>شعري لكِ</h2>
+    <p>تراك تدري ان الفؤاد مسكنك...</p>
+    <p>بان القمر و بانت خداك...</p>
+    <p>لا تبعث لاشراق شعري اني امسيت عن درب الهوى...</p>
+    <p>فاراقبك و تدرين ان قلبي يحس...</p>
+    <!-- يمكنك إضافة المزيد من الأبيات هنا -->
+  </section>
+
+  <!-- صفحة إشراق بالألوان -->
+  <section class="eshrag">
+    <h2>إشراق بالألوان</h2>
+    <img src="eshrag-image.jpg" alt="إشراق" class="eshrag-image">
+  </section>
+
+  <!-- صفحة التواصل -->
+  <section class="contact">
+    <h2>تواصل مع إشراق</h2>
+    <form action="#">
+      <label for="message">رسالتك إلى إشراق:</label>
+      <textarea id="message" name="message" rows="4" placeholder="أكتب رسالتك هنا..."></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 إشراق - XIMO</p>
+  </footer>
+</body>
+</html>
+</body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  direction: rtl;
+  color: #333;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6347; /* لون برتقالي مميز */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('sky-background.jpg'); /* صورة الخلفية */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .overlay {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero .poetry {
+  font-size: 1.2em;
+  margin-top: 20px;
+  font-style: italic;
+  color: #f5f5f5;
+}
+
+/* About XIMO Section */
+.about-ximo {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.ximo-image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* https://www.instagram.com/ximo.wg/*/
+.instagram-link {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.instagram-link a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ff6347;
+  text-decoration: underline;
+}
+
+.instagram-link p {
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+
+/* Poetry Section */
+.poetry {
+  background-color: #eaeaea;
+  padding: 40px 20px;
+}
+
+.poetry p {
+  font-size: 1.3em;
+  margin: 10px 0;
+  font-style: italic;
+  color: #333;
+}
+
+/* Eshrag Section */
+.eshrag {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.eshrag-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
+<section class="video-section">
+    <h2>شاهد الفيديو</h2>
+    <video width="800" controls autoplay>
+      <source src="1129(2)(1)" type="video/mp4">
+         </video>
+    <p>إشراق، هذا الفيديو مخصص لك.</p>
+  </section>
+  
